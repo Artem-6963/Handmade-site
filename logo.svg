@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 140" width="400" height="140">
+  <defs>
+    <linearGradient id="handGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8a87c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c16f3a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7a4a2a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c16f3a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Левая ладонь -->
+  <path d="M60 100 L60 55 Q60 40 70 38 L85 35 Q95 33 100 42 L105 55 L105 100 Z" 
+        fill="url(#handGrad)" stroke="#a05a2c" stroke-width="1.5"/>
+  
+  <!-- Правая ладонь -->
+  <path d="M115 100 L115 55 Q115 40 105 38 L90 35 Q80 33 75 42 L70 55 L70 100 Z" 
+        fill="url(#handGrad)" stroke="#a05a2c" stroke-width="1.5"/>
+
+  <!-- Сердечко между ладонями -->
+  <path d="M87 48 
+           Q87 40 93 38 
+           Q99 36 100 43 
+           Q101 36 107 38 
+           Q113 40 113 48 
+           Q113 58 100 68 
+           Q87 58 87 48 Z" 
+        fill="#d9693a" stroke="#a05a2c" stroke-width="1"/>
+
+  <!-- Нити / пряжа (декор) -->
+  <path d="M55 95 Q50 90 48 80" stroke="#c16f3a" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M120 95 Q125 90 127 80" stroke="#c16f3a" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Текст ТЕПЛО РУК -->
+  <text x="200" y="58" font-family="'Segoe UI', 'Poppins', system-ui, sans-serif" font-size="36" font-weight="800" fill="url(#textGrad)" letter-spacing="4">
+    ТЕПЛО РУК
+  </text>
+
+  <!-- Подпись handmade -->
+  <text x="200" y="82" font-family="'Segoe UI', 'Poppins', system-ui, sans-serif" font-size="14" font-weight="500" fill="#b07d56" letter-spacing="6">
+    HANDMADE
+  </text>
+
+  <!-- Декоративные чёрточки -->
+  <line x1="160" y1="92" x2="240" y2="92" stroke="#e8a87c" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="200" cy="98" r="3" fill="#e8a87c"/>
+</svg>
